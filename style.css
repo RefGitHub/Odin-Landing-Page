@@ -121,14 +121,17 @@ body {
 
   .box {
     background-color: #3882F6;
-    width: 900px;
+    width: 1000px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 200px;
-    gap: 120px;
     border-radius: 15px;
+    padding-left: 120px;
+    padding-right: 120px;
   }
+
+
 
   .action {
     font-size: 20px;
@@ -139,7 +142,9 @@ body {
   .actionLeft {
     display: flex;
     flex-direction: column;
+
   }
+
 
   .sentence {
     color: white;
